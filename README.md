@@ -82,7 +82,6 @@ python train-model.py
 
 ```
 
-
 Any Questions? | Conduct Me 
 ---
 

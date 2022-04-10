@@ -34,8 +34,25 @@ mydb = mysql.connector.connect(
 
 
 #FTP Config
-ftp = FTP("localhost")
-ftp.login(user='fmd_user',passwd='fmd123')
+
+ftp_host = ""
+ftp_username = ""
+ftp_password = ""
+
+
+with open("ftp-credentials.txt") as file:
+	for line in file:
+		if line.strip().split("=")[0] == "host":
+			ftp_host = line.strip().split("=")[1]
+
+		elif line.strip().split("=")[0] == "username":
+			ftp_username = line.strip().split("=")[1]
+
+		elif line.strip().split("=")[0] == "password":
+			ftp_password = line.strip().split("=")[1]
+
+ftp = FTP(ftp_host)
+ftp.login(user=ftp_username,passwd=ftp_password)
 
 
 def greeting_function():

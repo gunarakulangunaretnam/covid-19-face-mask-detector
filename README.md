@@ -44,6 +44,7 @@ Video: https://www.facebook.com/gunarakulan/videos/3699395566811987
 
 ### Setup Backend (Management Panel)
 
+
 **Step 01**:
 
 - Create an empty database called "facemask"
@@ -69,8 +70,22 @@ covid-19-face-mask-detector\1-backend\0-database\facemask.sql
 covid-19-face-mask-detector\1-backend
 ```
 
+#### Setup FTP
 
-**FTP Setup**
+**Note** We are using FTP to transfer captured photos from frontend to backend (Management Panel).
+
+**Credentials**
+
+- **Host:** localhost
+- **Username:** fmd_user
+- **Password** fmd123
+
+We need to setup a FTP on the frontend deployed device in order to send captured images to the backend panel.
+
+**To change FTB Credentials**
+
+
+
 
 * Create a FTP server which points to the image_data folder that is found in the public directory of backend (Management Panel).
 * Setup the username as "fmd_user" and password as "fmd123".

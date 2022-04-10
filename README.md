@@ -1,30 +1,73 @@
-Introduction
----
+# Covid-19 Face Mask Detector
 
-This covid-19-face-mask-detector is computer vision based system which gives access to people who wear face mask. There are two main sections in it. The first one is the “Management System” which is consider as the backend. It is in written in Laravel. The “Management Panel” is used to customize the settings such as languages and etc. 
-
-The frontend is the machine learning and computer vision part which takes care of detections and alarm voices related things. This system was programmed to make voice (vocals) in Tamil, Sinhala and English.  The language can be changed from the “Management Panel” (backend). 
-
-The backend (Management Panel) is the web-based system which keeps records of people who violet the rule by not wearing a mask. It takes snap shots and store it on the database. Then,  the admin can view those stuffs from the backend (Management Panel). 
-
-This system was written by many programming languages and frameworks such as Laravel, Python, PhP, HTML, JavaScript, Tensorflow, Keras, openCV and etc. This system is using MySQL database to store records.
-
-This system is using FTP server to transfer taken photos to backend (Management Panel). So, It is better to have a FTP Sever running on the deployed device.
+## Introduction
 
 
+The covid-19-face-mask-detector is computer vision based system that allows only people who wear a face mask. The primary scope of this project is to restrict people to wear face mask.  
 
 
-![](facemask-diagram.png)
+This prototype has two main sections, those are "Management System" that is considered as backend Panel and "Monitoring System" that is considered as frontend.
+
+The backend panel (Management Panel) is written in Laravel framework, the management panel is used to customize the settings such as languages, and also useful for monitoring and data storage.
+
+The frontend (Monitoring System) is written in Python, We use a computer vision and deep neural network to achieve it.
+
+The function of management panel (backend) is to customize system behaviors and store captures data in it, however the function of monitoring system (frontend) is to perform the actual face mask detection, turn on alarm, give voice output warning message in Tamil, Sinhala and English.   
+
+
+The backend (Management Panel) is the web-based system that keeps records of people who violet the rule by not wearing a mask. It takes snap shots and store it on the database. Then,  the admin can view those stuffs from the backend (Management Panel).
+
+This project has used many programming languages and frameworks such as Laravel, Python, PhP, HTML, JavaScript, Tensorflow, Keras, OpenCV and etc, as a database we are using MySQL.
+
+The FTP server is used to transfer taken photos to backend (Management Panel). So, It is better to have a FTP Sever running on the deployed device.
+
+
+Video: https://www.facebook.com/gunarakulan/videos/3699395566811987
+
+### Diagram
+![](github-readme-contents/main-diagram.png)
 
 
 
-Configuration
----
+## Technology and Frameworks
 
-**Backend**
+- **Python** - for monitoring system
+- **Laravel** - for backend Panel
+- **Tensorflow** - for model training
+- **Keras** - for model fine tune and easy model training.
+- **OpenCV** - for computer vision
+- **Sklearn** - for image preprocessing.
 
-* Import the MySQL Database that is found in the backend folder of this repo.
-* Deploy the backend (Management Panel). 
+
+## Configuration and Setup
+
+
+### Setup Backend (Management Panel)
+
+**Step 01**:
+
+- Create an empty database called "facemask"
+
+![IMAGE](github-readme-contents/create-db.jpg)
+
+**Step 02**:
+
+- Import the database from the following directory.
+
+```
+covid-19-face-mask-detector\1-backend\0-database\facemask.sql
+```
+
+![IMAGE](github-readme-contents/import-db.jpg)
+
+
+**Step 03**:
+
+- Deploy the backend panel (Management System).
+
+```
+covid-19-face-mask-detector\1-backend
+```
 
 
 **FTP Setup**
@@ -82,7 +125,7 @@ python train-model.py
 
 ```
 
-Any Questions? | Conduct Me 
+Any Questions? | Conduct Me
 ---
 
 * [Linkedin Profile](https://www.linkedin.com/in/gunarakulan-gunaretnam-161119156/)
@@ -90,7 +133,3 @@ Any Questions? | Conduct Me
 * [Twitter Profile](https://twitter.com/gunarakulang)
 * [Instagram Profile](https://www.instagram.com/gunarakulan_gunaretnam/)
 * [Youtube Channel](https://www.youtube.com/channel/UCMWkED5sabgVZSCKjZuRJXA/videos)
-
-
-
-

@@ -82,14 +82,23 @@ covid-19-face-mask-detector\1-backend
 
 We need to setup a FTP on the frontend deployed device in order to send captured images to the backend panel.
 
-**To change FTB Credentials**
+**To change FTP Credentials**
+
+- Open the "ftp-credentials.txt file" this is found on the following directory (inside the 0-frontend directory) and edit it.
+
+```
+covid-19-face-mask-detector\0-frontend\ftp-credentials.txt file
+```
+
+**Note** Don't remove the '=' in the middle.
 
 
+![IMAGE](github-readme-contents/ftp.jpg)
 
 
-* Create a FTP server which points to the image_data folder that is found in the public directory of backend (Management Panel).
-* Setup the username as "fmd_user" and password as "fmd123".
-* **Note:-** You can change the password and username of FTP server in the frontend python scripts.
+#### Steps to implement a FTP server.
+
+- Point to the image_data folder that is found in the public directory of backend (Management Panel).
 
 
 **Frontend**

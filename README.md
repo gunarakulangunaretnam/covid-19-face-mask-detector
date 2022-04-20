@@ -158,11 +158,17 @@ pip install keras
 ![IMAGE](github-readme-contents/setting-1.jpg)
 
 
-**Note:** 
+**Note:** The language of the voice can be changed in the setting module, Tamil, Sinhala and English languages are available.
 
 ![IMAGE](github-readme-contents/setting-2.jpg)
 
 
+## Frontend Demo
+
+
+![IMAGE](github-readme-contents/demo-1.gif)
+
+![IMAGE](github-readme-contents/demo-2.gif)
 
 ## Execution and Running
 
@@ -177,7 +183,7 @@ python run-with-webcam.py
 
 **Run with pre-recorded video**
 
-* Give the video path programmatically by editing the "run-with-video.py" script that is found the line number of 245.
+* Give the video path programmatically by editing the "run-with-video.py".
 
 
 ```

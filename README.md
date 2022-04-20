@@ -80,8 +80,6 @@ covid-19-face-mask-detector\1-backend
 - **Username:** fmd_user
 - **Password** fmd123
 
-We need to setup a FTP on the frontend deployed device in order to send captured images to the backend panel.
-
 **To change FTP Credentials**
 
 - Open the "ftp-credentials.txt file" this is found on the following directory (inside the 0-frontend directory) and edit it.
@@ -100,11 +98,73 @@ covid-19-face-mask-detector\0-frontend\ftp-credentials.txt file
 
 - Point to the image_data folder that is found in the public directory of backend (Management Panel).
 
+**Note:** Point the FTP to the following directory
 
-**Frontend**
+```
+1-facemask-backend-laravel\public\image_data
+```
 
-* Copy the frontend to the deployed directory.
-* All scripts are found in the frontend folder.
+### Setup Frontend (Monitoring System)
+
+* Copy the "0-frontend" folder to the deployed directory.
+
+#### Install Dependencies
+
+
+```
+pip install tensorflow
+```
+
+```
+pip install opencv-python
+```
+
+```
+pip install playsound
+```
+
+```
+pip install imutils
+```
+
+```
+pip install mysql-connector-python
+```
+
+```
+pip install keras
+```
+
+## Backend (Management Panel) Explained
+
+### Login Page
+
+![IMAGE](github-readme-contents/login-page.jpg)
+
+- Username: admin
+- Password: admin
+
+### Dashboard Home Page
+
+![IMAGE](github-readme-contents/dashboard.jpg)
+
+**Note:** The home page stores all of the people' snapshots who did not wear a face mask, the system can delete snapshots via clicking the "Delete" red color button.
+
+### Settings Page
+
+**Note:** The "Settings" page has two main features, one is the change password, the another one is to change the language of the frontend system. Example: When the frontend detects, it speaks out warning message in voice output, we can change that voice language in this setting module.   
+
+
+![IMAGE](github-readme-contents/setting-1.jpg)
+
+
+**Note:** 
+
+![IMAGE](github-readme-contents/setting-2.jpg)
+
+
+
+## Execution and Running
 
 **Run with webcam**
 

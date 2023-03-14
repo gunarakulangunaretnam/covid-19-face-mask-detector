@@ -113,16 +113,15 @@ This page isn’t working localhost is currently unable to handle this request. 
 
 ##### Solution:
 
- - composer install / composer update
+ - composer install 
  
- ```
-  composer update
- ```
-OR
-
- ```
-  composer install
- ```
+   ```
+    composer update
+   ```
+- composer update 
+   ```
+    composer install
+   ```
 ### Setup Frontend (Monitoring System)
 
 * Copy the "0-frontend" folder to the deployed directory.

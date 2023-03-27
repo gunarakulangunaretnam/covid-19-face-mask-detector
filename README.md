@@ -208,9 +208,7 @@ python run-testing.py
 * If it is needed, the neural network (model) can be fine-tuned in the "train-model.py".
 
 ```
-
 python train-model.py
-
 ```
 
 

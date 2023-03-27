@@ -42,7 +42,7 @@ Video: https://www.facebook.com/gunarakulan/videos/3699395566811987
 ## Setup
 
 
-### Setup Backend (Management Panel)
+### Setup Backend (Management System)
 
 
 **Step 01**:
@@ -153,42 +153,8 @@ pip install mysql-connector-python
 pip install keras
 ```
 
-## Backend (Management Panel) Explained
 
-### Login Page
-
-![IMAGE](github-readme-contents/login-page.jpg)
-
-- Username: admin
-- Password: admin
-
-### Dashboard Home Page
-
-![IMAGE](github-readme-contents/dashboard.jpg)
-
-**Note:** The home page stores all of the people' snapshots who did not wear a face mask, the system can delete snapshots via clicking the "Delete" red color button.
-
-### Settings Page
-
-**Note:** The "Settings" page has two main features, one is the change password, the another one is to change the language of the frontend system. Example: When the frontend detects, it speaks out warning message in voice output, we can change that voice language in this setting module.   
-
-
-![IMAGE](github-readme-contents/setting-1.jpg)
-
-
-**Note:** The language of the voice can be changed in the setting module, Tamil, Sinhala and English languages are available.
-
-![IMAGE](github-readme-contents/setting-2.jpg)
-
-
-## Frontend Demo
-
-
-![IMAGE](github-readme-contents/demo-1.gif)
-
-![IMAGE](github-readme-contents/demo-2.gif)
-
-## Execution and Running
+## Execute the Project
 
 **Run with webcam**
 
@@ -219,8 +185,42 @@ python run-testing.py
 
 ```
 
+## Monitoring System Demonstration 
 
-**Retrain the network (Model)**
+
+![IMAGE](github-readme-contents/demo-1.gif)
+
+![IMAGE](github-readme-contents/demo-2.gif)
+
+## Management System Demonstration 
+
+### Login Page
+
+![IMAGE](github-readme-contents/login-page.jpg)
+
+- Username: admin
+- Password: admin
+
+### Dashboard Home Page
+
+![IMAGE](github-readme-contents/dashboard.jpg)
+
+**Note:** The home page stores all of the people' snapshots who did not wear a face mask, the system can delete snapshots via clicking the "Delete" red color button.
+
+### Settings Page
+
+**Note:** The "Settings" page has two main features, one is the change password, the another one is to change the language of the frontend system. Example: When the frontend detects, it speaks out warning message in voice output, we can change that voice language in this setting module.   
+
+
+![IMAGE](github-readme-contents/setting-1.jpg)
+
+
+**Note:** The language of the voice can be changed in the setting module, Tamil, Sinhala and English languages are available.
+
+![IMAGE](github-readme-contents/setting-2.jpg)
+
+
+## How to Retrain the Model?
 
 * Collect more images of faces with mask and without mask.
 * Paste all the with mask images inside the "dataset/with-mask" directory that is found in the frontend.

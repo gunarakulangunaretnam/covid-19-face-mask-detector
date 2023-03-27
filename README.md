@@ -22,7 +22,7 @@ This project has used many programming languages and frameworks such as Laravel,
 The FTP server is used to transfer taken photos to backend (Management Panel). So, It is better to have a FTP Sever running on the deployed device.
 
 
-Project Introduction Video: https://web.facebook.com/gunarakulangunaretnam/videos/3699395566811987
+**Project Introduction Video:** https://web.facebook.com/gunarakulangunaretnam/videos/3699395566811987
 
 ### Architecture Diagram
 ![](github-readme-contents/main-diagram.png)

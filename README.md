@@ -24,7 +24,7 @@ The FTP server is used to transfer taken photos to backend (Management Panel). S
 
 Video: https://www.facebook.com/gunarakulan/videos/3699395566811987
 
-### Diagram
+### Architecture Diagram
 ![](github-readme-contents/main-diagram.png)
 
 
@@ -42,7 +42,7 @@ Video: https://www.facebook.com/gunarakulan/videos/3699395566811987
 ## Setup
 
 
-### Setup Backend (Management System)
+### Setup Management System (Backend)
 
 
 **Step 01**:
@@ -122,7 +122,7 @@ This page isn’t working localhost is currently unable to handle this request. 
    ```
     composer install
    ```
-### Setup Frontend (Monitoring System)
+### Setup Monitoring System (Frontend)
 
 * Copy the "0-frontend" folder to the deployed directory.
 

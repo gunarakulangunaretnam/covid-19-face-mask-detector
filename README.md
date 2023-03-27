@@ -39,7 +39,7 @@ Video: https://www.facebook.com/gunarakulan/videos/3699395566811987
 - **Sklearn** - for image preprocessing.
 
 
-## Configuration and Setup
+## Setup
 
 
 ### Setup Backend (Management Panel)

@@ -104,24 +104,6 @@ covid-19-face-mask-detector\0-frontend\ftp-credentials.txt file
 1-facemask-backend-laravel\public\image_data
 ```
 
-
-#### Errors & Solutions
-
-##### Error:
-
-This page isn’t working localhost is currently unable to handle this request. **HTTP error 500 laravel**.
-
-##### Solution:
-
- - composer install 
- 
-   ```
-    composer update
-   ```
-- composer update 
-   ```
-    composer install
-   ```
 ### Setup Monitoring System (Frontend)
 
 * Copy the "0-frontend" folder to the deployed directory.
@@ -152,7 +134,6 @@ pip install mysql-connector-python
 ```
 pip install keras
 ```
-
 
 ## Execute the Project
 
@@ -186,7 +167,6 @@ python run-testing.py
 ```
 
 ## Monitoring System Demonstration 
-
 
 ![IMAGE](github-readme-contents/demo-1.gif)
 
@@ -232,6 +212,26 @@ python run-testing.py
 python train-model.py
 
 ```
+
+
+## Errors & Solutions
+
+### Error:
+
+This page isn’t working localhost is currently unable to handle this request. **HTTP error 500 laravel**.
+
+### Solution:
+
+ - composer install 
+ 
+   ```
+    composer update
+   ```
+- composer update 
+   ```
+    composer install
+   ```
+
 
 Social Media Links
 ---

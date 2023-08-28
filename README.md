@@ -3,23 +3,23 @@
 ## Introduction
 
 
-The covid-19-face-mask-detector is computer vision based system that allows only people who wear a face mask. The primary scope of this project is to restrict people to wear face mask.  
+The covid-19-face-mask-detector is computer vision based system that allows only people who wear a face mask. The primary scope of this project is to restrict people from wearing face masks.  
 
 
-This prototype has two main sections, those are "Management System" that is considered as backend Panel and "Monitoring System" that is considered as frontend.
+This prototype has two main sections: the "Management System," which is considered as the backend Panel, and the "Monitoring System," which is regarded as the frontend.
 
-The backend panel (Management Panel) is written in Laravel framework, the management panel is used to customize the settings such as languages, and also useful for monitoring and data storage.
+The backend panel (Management Panel) is written in the Laravel framework; the management panel is used to customize the settings, such as languages, and is also useful for monitoring and data storage.
 
-The frontend (Monitoring System) is written in Python, We use a computer vision and deep neural network to achieve it.
+The frontend (Monitoring System) is written in Python; We use computer vision and deep neural networks to achieve it.
 
-The function of management panel (backend) is to customize system behaviors and store captures data in it, however the function of monitoring system (frontend) is to perform the actual face mask detection, turn on alarm, give voice output warning message in Tamil, Sinhala and English.   
+The function of the management panel (backend) is to customize system behaviors and store captured data in it; however, the function of the monitoring system (frontend) is to perform the actual face mask detection, turn on the alarm, give voice output warning message in Tamil, Sinhala, and English.   
 
 
-The backend (Management Panel) is the web-based system that keeps records of people who violet the rule by not wearing a mask. It takes snap shots and store it on the database. Then,  the admin can view those stuffs from the backend (Management Panel).
+The backend (Management Panel) is a web-based system that keeps records of people who violate the rule by not wearing a mask. It takes snapshots and stores them in the database. Then,  the admin can view those stuff from the backend (Management Panel).
 
-This project has used many programming languages and frameworks such as Laravel, Python, PhP, HTML, JavaScript, Tensorflow, Keras, OpenCV and etc, as a database we are using MySQL.
+This project has used many programming languages and frameworks such as Laravel, Python, PHP, HTML, JavaScript, Tensorflow, Keras, OpenCV etc as a database, we are using MySQL.
 
-The FTP server is used to transfer taken photos to backend (Management Panel). So, It is better to have a FTP Sever running on the deployed device.
+The FTP server is used to transfer taken photos to the backend (Management Panel). So, It is better to have an FTP Server running on the deployed device.
 
 
 **Project Introduction Video:** https://web.facebook.com/gunarakulangunaretnam/videos/3699395566811987
@@ -29,7 +29,7 @@ The FTP server is used to transfer taken photos to backend (Management Panel). S
 
 
 
-## Technology and Frameworks
+## Technology Stack
 
 - **Python** - for monitoring system
 - **Laravel** - for backend Panel

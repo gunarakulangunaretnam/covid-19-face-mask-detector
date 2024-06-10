@@ -1,10 +1,9 @@
-# COVID-19 FACE MASK DETECTOR
+# COVID-19 Face Mask Detector
 
 ## Introduction
 
 
-The covid-19-face-mask-detector is computer vision based system that allows only people who wear a face mask. The primary scope of this project is to restrict people from wearing face masks.  
-
+The covid-19-face-mask-detector is computer vision based system that allows only people who wear a face mask. The primary scope of this project is to restrict people from wearing face masks. 
 
 This prototype has two main sections: the "Management System," which is considered as the backend Panel, and the "Monitoring System," which is regarded as the frontend.
 
@@ -234,7 +233,7 @@ This page isn’t working localhost is currently unable to handle this request. 
 Social Media Links
 ---
 
-# CONTACT
+# Contact
 
 ### Website: 
 
